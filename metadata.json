@@ -1,0 +1,6 @@
+{
+  "name": "Rim Phone",
+  "description": "Premium virtual international phone numbers for instant social media verification in Mauritania (Bankily, Masrvi, Sedad).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
