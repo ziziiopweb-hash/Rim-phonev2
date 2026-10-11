@@ -33,6 +33,7 @@ import { UserOrdersPanel } from './components/store/UserOrdersPanel';
 import { CheckoutModal } from './components/checkout/CheckoutModal';
 import { AuthModal } from './components/auth/AuthModal';
 import { AdminControlDashboard } from './components/admin/AdminControlDashboard';
+import { PWAInstallButton } from './components/PWAInstallButton';
 
 const RimPhoneShell: React.FC = () => {
   const {
@@ -179,6 +180,7 @@ const RimPhoneShell: React.FC = () => {
 
             {/* Primary Actions (Language, Store, My Orders Tab, Account / Admin) */}
             <div className="flex items-center gap-2 sm:gap-2.5 shrink-0">
+              <PWAInstallButton />
               {/* Language Switcher on Mobile */}
               <button
                 type="button"
